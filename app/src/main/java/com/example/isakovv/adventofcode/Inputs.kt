@@ -2876,3 +2876,7 @@ ujoon-eaphixr-vgphh-prfjxhxixdc-193[hyzjx]
 dfcxsqhwzs-qobrm-zcuwghwqg-168[qwcgh]
 bqvvu-ydkykhwpa-klanwpekjo-966[kapvw]
 aoubshwq-pibbm-kcfygvcd-740[wnucy]"""
+
+val input4_1 = "North Pole"
+
+val input5 = "ojvtpuvg"
