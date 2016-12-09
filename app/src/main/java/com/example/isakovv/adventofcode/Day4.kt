@@ -1,6 +1,7 @@
 package com.example.isakovv.adventofcode
 
 import android.util.Log
+import java.util.*
 
 /**
  * Created by isakov.v on 12/8/16.
@@ -10,9 +11,42 @@ object Advert7 {
         var result = 0
         input4.lines().forEach {
             val splittedCode = splitCode(it)
-            Log.d("__", splittedCode.toString())
+            val lettersFrequencyMap = getFrequencyMap(splittedCode.letters)
+            val sortedLettersByFrequencyAndAlphabetically = getSortedLetters(lettersFrequencyMap)
+            if (splittedCode.checksum == sortedLettersByFrequencyAndAlphabetically.substring(0, splittedCode.checksum.length)) {
+                result += splittedCode.sectorId
+            }
+            Log.d("__", splittedCode.letters)
+            Log.d("__", sortedLettersByFrequencyAndAlphabetically)
         }
         return result
+    }
+
+    private fun getSortedLetters(lettersFrequencyMap: Map<Char, Int>): String {
+        val frequencyToListOfLettersMap = HashMap<Int, MutableList<Char>>()
+        for ((key, value) in lettersFrequencyMap) {
+            val listOfLettersWithSameFrequency = frequencyToListOfLettersMap[value] ?: ArrayList()
+            listOfLettersWithSameFrequency.add(key)
+            frequencyToListOfLettersMap.put(value, listOfLettersWithSameFrequency)
+        }
+        for ((key, value) in frequencyToListOfLettersMap) {
+            value.sort()
+        }
+        val keys = ArrayList(frequencyToListOfLettersMap.keys)
+        keys.sortDescending()
+        var sortedLetters = ""
+
+        keys.map { frequencyToListOfLettersMap[it] }.forEach { listOfLetters -> listOfLetters!!.forEach { sortedLetters += it } }
+        return sortedLetters
+    }
+
+    private fun getFrequencyMap(letters: String): Map<Char, Int> {
+        val frequencyMap = HashMap<Char, Int>()
+        letters.filter { it != '-' }.forEach {
+            val frequency = frequencyMap[it] ?: 0
+            frequencyMap.put(it, frequency + 1)
+        }
+        return frequencyMap
     }
 
     private fun splitCode(code: String): SplittedCode {
@@ -25,4 +59,10 @@ object Advert7 {
     }
 
     data class SplittedCode(val letters: String, val sectorId: Int, val checksum: String)
+}
+
+object Advert8 {
+    fun result(): Int {
+        return 0
+    }
 }
