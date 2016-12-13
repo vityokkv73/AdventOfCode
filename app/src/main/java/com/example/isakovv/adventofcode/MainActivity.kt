@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         start.setOnClickListener {
-            result.text = Advent15.result().toString()
+            result.text = Advent15_16.result().toString()
         }
     }
 }

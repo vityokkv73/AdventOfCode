@@ -1,11 +1,12 @@
 package com.example.isakovv.adventofcode
 
+import android.util.Log
 import java.util.regex.Pattern
 
 /**
  * Created by deerhunter on 12/12/2016.
  */
-object Advent15 {
+object Advent15_16 {
     val rotateRowPattern = Pattern.compile("rotate row y=(\\d+) by (\\d+)")
     val rotateColumnPattern = Pattern.compile("rotate column x=(\\d+) by (\\d+)")
     val rectPattern = Pattern.compile("rect (\\d+)x(\\d+)")
@@ -27,13 +28,19 @@ object Advent15 {
                 rotateColumn(Integer.valueOf(rotateColumnMatcher.group(1)), Integer.valueOf(rotateColumnMatcher.group(2)))
             }
         }
+        var resStr = ""
         lcd.forEach {
             it.forEach {
                 if (it) {
+                    resStr += "#"
                     res++
+                } else {
+                    resStr += "."
                 }
             }
+            resStr += "\n"
         }
+        Log.d("res", resStr)
         return res
     }
 
