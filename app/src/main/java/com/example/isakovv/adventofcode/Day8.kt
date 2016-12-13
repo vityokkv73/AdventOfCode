@@ -16,15 +16,22 @@ object Advent15 {
         input8.lines().forEach { command ->
             val createRectMatcher = rectPattern.matcher(command)
             if (createRectMatcher.find()) {
-                setRect(Integer.valueOf(createRectMatcher.group(0)), Integer.valueOf(createRectMatcher.group(1)))
+                setRect(Integer.valueOf(createRectMatcher.group(1)), Integer.valueOf(createRectMatcher.group(2)))
             }
             val rotateRowMatcher = rotateRowPattern.matcher(command)
             if (rotateRowMatcher.find()) {
-                rotateRow(rotateRowMatcher.group(1), rotateRowMatcher.group(2))
+                rotateRow(Integer.valueOf(rotateRowMatcher.group(1)), Integer.valueOf(rotateRowMatcher.group(2)))
             }
             val rotateColumnMatcher = rotateColumnPattern.matcher(command)
             if (rotateColumnMatcher.find()) {
-                rotateColumn(rotateColumnMatcher.group(1), rotateColumnMatcher.group(2))
+                rotateColumn(Integer.valueOf(rotateColumnMatcher.group(1)), Integer.valueOf(rotateColumnMatcher.group(2)))
+            }
+        }
+        lcd.forEach {
+            it.forEach {
+                if (it) {
+                    res++
+                }
             }
         }
         return res
@@ -32,18 +39,26 @@ object Advent15 {
 
     private fun setRect(width: Int, height: Int) {
         for (i in 0 until height) {
-            val row = lcd[i]
-            for (j in 0 .. width) {
-                row[j] = true
-            }
+            lcd[i].fill(true, 0, width)
         }
     }
 
-    private fun rotateRow(row: String, times: String) {
-
+    private fun rotateRow(row: Int, times: Int) {
+        val rowCopy = lcd[row].copyOf()
+        val rowWidth = lcd[row].size
+        val shiftRight = times % rowWidth
+        for (i in rowCopy.indices) {
+            lcd[row][i] = rowCopy[(rowWidth - shiftRight + i) % rowWidth]
+        }
     }
 
-    private fun rotateColumn(column: String, times: String) {
-
+    private fun rotateColumn(column: Int, times: Int) {
+        val columnHeight = lcd.size
+        val columnCopy = BooleanArray(columnHeight, { false })
+        lcd.forEachIndexed { index, array -> run { columnCopy[index] = array[column] } }
+        val shift = times % columnHeight
+        for (i in columnCopy.indices) {
+            lcd[i][column] = columnCopy[(columnHeight - shift + i) % columnHeight]
+        }
     }
 }
