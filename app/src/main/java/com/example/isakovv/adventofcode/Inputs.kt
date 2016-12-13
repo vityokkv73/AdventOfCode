@@ -2880,3 +2880,732 @@ aoubshwq-pibbm-kcfygvcd-740[wnucy]"""
 val input4_1 = "North Pole"
 
 val input5 = "ojvtpuvg"
+
+val input6 = """khcibocv
+jhwqzinl
+enikmoog
+ldcbkyqw
+viqbuskb
+fzvrmhfn
+ladvyzpt
+ypsoweag
+gstsspar
+ororoswe
+bmcygmuk
+ehrmjtrk
+tnarfydl
+jjhmrhhx
+aftnuczq
+vvghksah
+tcivmvhj
+ntywtask
+nlybjngg
+mxpooonw
+uaaahxvu
+skgabntf
+xotlxbrb
+rehuhrva
+dsllciwd
+gazdreai
+nfzmbrzq
+pzyqwlck
+kyeimxka
+poitbpcq
+enjfhkmf
+hmyalzgt
+urnjnjux
+plluucvj
+vmobfpox
+mlmoqxsl
+kzsjixnf
+edjjkqka
+pyrmobat
+jjbvqmnl
+ujbkjqif
+kwlchvqz
+yvrwysla
+pkpvcwky
+ajdsfxuo
+zchpkvvm
+dhshdjas
+fwqhcjhv
+lrtfpdzt
+mhwekkgf
+pbzwzgdf
+jxzubhsx
+rxqlpjfp
+jisyyuuz
+qorpztlr
+rbkbjbwb
+hkxikxgx
+qrkgpdsn
+fumuernz
+xdedjbbg
+zargtdeu
+smajsdkl
+yaolvlts
+msuvrjrw
+plkwvaoa
+pyhsxlki
+idvhxmwd
+rwzjwiau
+nkmqajlq
+swasqiqu
+zsvrurkz
+bshawkvh
+fxjosngk
+lftgizov
+royhlpvi
+ozfsdycq
+szfuhfyn
+bxrzzddr
+esgetyot
+vcuidsbs
+jxoatgap
+gjafaudp
+ikqinimx
+zecjrdzp
+hvjtaevq
+mllrlqig
+zqsvxuur
+rcnalxub
+qtlitclb
+pffqtwlk
+aamzfxdv
+dqzfjijm
+cbzbryea
+jyvghssp
+uptrvwfm
+xxuwjaue
+jxszzvqn
+qzfctzgz
+iqdeustp
+bwyqfitn
+esuncthz
+mbmvpmmb
+owykcniv
+xgoprofl
+njuogrwz
+oapyrnyo
+afipluwq
+oiqdgaxn
+rvxcgjjk
+irnmhtyi
+uywjvbcd
+bgkpbtwq
+rytrecry
+xscrucfv
+uzjgwpbu
+usxemsih
+toqenxtn
+ltnnffww
+fesjxbte
+toqprifs
+qjnddbgh
+szfbokll
+xjcaakhy
+kyoyuift
+xebjabbv
+qxjfpmxx
+gzmfittf
+rgcesvuf
+fihfwpcw
+hivyqkxx
+ettkcuju
+lepmnywk
+mxlyazsj
+tclpefti
+isddpomz
+vllngecg
+cnmlqqts
+ghzgmenj
+bsqtezbx
+weclcosh
+fnvlndqp
+ajwodezw
+fiwwwrqp
+doiqhfks
+uroivqkr
+nlhhoxgk
+vpzdijxy
+aqxrabtd
+qpsapogw
+nfevlpsy
+ucnbmlep
+ftvwwpmy
+pwxercon
+eerffxar
+ifwnunmr
+zqdxxnlg
+ccqzyzrs
+jkxpsptt
+hcwcfwxz
+ytqsdaru
+crvvlczm
+sjgbewuo
+rtekqqyw
+hifnzajs
+dzrbjrmk
+vvrsnabi
+yxhmsrve
+xqnjloiy
+vewkpfkl
+orgzjghz
+pruumqmk
+vkaqlfrc
+qpweltsz
+gskqnvgb
+iqsyhybo
+rdifquyg
+cinbrlhx
+nuhdwupe
+tanwxjxg
+tdvsnbxe
+lojzjfst
+lgavdhxp
+zvhqxcvi
+fctwuggi
+kyybansr
+ngbozhln
+oqfenkzr
+icsdfhja
+xpzehvzj
+uvtrnszo
+osvspebk
+ltcphnbb
+idqrtgnl
+daexnzud
+jhijuube
+svtzbxiy
+ttclvagz
+nuwmycor
+zqxkvwyz
+icjtqjyf
+xghgksmm
+xqcewwhu
+powxnedd
+jkmivqua
+wqgzmvma
+jbppcqsu
+ksiydveu
+yocbpyol
+rvhtmomj
+yyuzffas
+eddydubc
+ydkhqqyk
+cnxcfvdu
+oiordwav
+mmpbydxw
+qqsvoqbs
+wkmzqece
+nnmmhiat
+fngnjese
+sgxusxdl
+eolpfmfa
+sqxxblfc
+spdissrw
+nxbfvtph
+pnqyfpul
+cfkmmzdg
+gawnheoa
+mpjzbbet
+gmvdurol
+guhxkkgw
+hnyqcolp
+bdpehanj
+wfnefrhb
+mmiibcoo
+jlovegph
+lrmsqjcw
+wpstvfwy
+lpkhrgeq
+luntklzw
+tiumpbgb
+cvokibyc
+hctoulij
+eyftcljk
+exrluedr
+wdfqasbw
+vedplmwu
+ekilmgfv
+ypvfgryn
+ipcdamoh
+dfnokvhw
+bmozidav
+xbslddhp
+nycwbgru
+rvededdo
+hswdfgqx
+gpdzteci
+owousdhj
+tgyzmpth
+bkznquey
+jedrsywg
+nuugqlsn
+llbukwdi
+xdeubqth
+turyyenh
+nxpiiksp
+ykbgoipa
+abpoqvxl
+agdrgmln
+umitveuz
+zwloekza
+spkbbgzn
+zguzeqvm
+mgxkxide
+lwdysuzc
+tfpatjqm
+ubeutdgt
+ndjgiwon
+ahdgulyx
+maxenvqc
+qpqxktrw
+weypzerx
+rbwkpyuo
+irqpgynl
+mwlqjtuc
+avxmbbdg
+oirrkxpq
+zfkfafaw
+kvklomjj
+vluzeasr
+frzaapuz
+lsdqpcyp
+ueknwyhf
+wzsocbzl
+nzadmnii
+dgnjpnge
+sfkibbue
+acecuwoc
+clalamqd
+cobgspon
+hmfnykwc
+hqevztnf
+ryuuyhpu
+giyxlwrc
+nlhhmvjm
+rpmcbuky
+btsqkepi
+pauxvbpr
+vzykivly
+zuuriflr
+pmkrtyrj
+qxlawhkv
+bqvxmpav
+ouosojqo
+lndxqxfs
+mrqjrngc
+emooedpn
+ivflajhy
+xnbmahii
+gtwooutx
+uvzwttzm
+ejrzloec
+kctajqbz
+uenccclt
+aodirzov
+krsdjxqj
+vmejhntu
+odlayeci
+bdavpyed
+objgfkpo
+yzpnbnrr
+qlvejkpy
+unwoddgl
+qrtiuloq
+erotscja
+kpyenovk
+tzrrmzfo
+tliqgpye
+uhmyccwq
+cjdhqmcg
+jhtugcok
+jffgfowo
+holaphiq
+qekjkrcr
+pcnnoyjp
+zvaktygd
+guzduqfg
+wmfchihu
+qlhwnneb
+usaluaek
+cqcylrke
+udjhigre
+iyimvuxf
+evafupbe
+prntrzvd
+cmvftuxh
+llkoglec
+iyoickxi
+awqroppq
+krdytrns
+vkkedshc
+shpqzlnp
+ojuxtltf
+kbcnqrnm
+heiwqdqs
+dzehifny
+akgpeqkd
+gnfouufc
+vyxsztli
+rvgkdibl
+zojbkins
+jnstmkij
+afbtggpx
+mtmbecfg
+dnzvjrsm
+yajgnvmu
+dyqnqfmr
+sbahwpmh
+fgbkdjnh
+mnmvkhvf
+kbmdcuql
+gaohjaft
+qacakvcu
+mlehgmwe
+nrilzcfa
+bswyroxy
+vgakiwqe
+obinkfqn
+duyackwn
+hhpspxao
+qnvgyapl
+fuzxonju
+yvphteip
+qfsnymnc
+gayzkffc
+alakggqh
+pajdfyzs
+zhpkouem
+cwbqckrf
+bkgtozdv
+xaumkiwb
+rjstrrbx
+suaocaka
+extsqbny
+alcznjdp
+kcxxmbiq
+sodwraub
+docboheb
+cdxjzeya
+ftezsbxr
+twwcgfql
+rtltgsir
+itpiedtb
+ggaqsrhw
+kdteswtv
+pazbsvbv
+axjueucy
+edfxyrrg
+xkfuawjw
+itqavzvi
+hpdmicmx
+ruucdsmm
+wpriitbf
+tezkyhnb
+yfiaqvbn
+hjsmozvq
+vvsvphbg
+ohpjzecu
+eibyfmdd
+thvhoqnj
+yhgixopm
+xkglnhpd
+tbecxhjz
+fsjfyjwp
+mwzjcoxy
+pihrpjbg
+ojldbwrr
+ifrxhgcj
+xkxitmzy
+wnpohuab
+cyneijcx
+noctwmyx
+omawhzda
+wkkhemkj
+mfcabriz
+tjfacjik
+tzenywvk
+kwrsxnik
+gtqvpilj
+dkqsblst
+cxnybijm
+hilnakro
+vupnzfia
+dgkxtyiz
+agalxoro
+rmtowfjd
+vgqfrbhr
+seofdqhz
+hbeyives
+ulxunkmw
+lfugxmkt
+caibcuce
+iimsvqpo
+nfcozowh
+scvtejmt
+phmuwlmb
+scvcjxav
+fxuhxada
+dexysoxf
+xjwnzaah
+kkrydchm
+zrbcgyxn
+eofrefkq
+bqxxthyh
+bqyqwmlv
+xpxfxisl
+vhrcvpuj
+jyjqizcx
+hcfgwvas
+aitkfzot
+zipwvris
+sztcwguq
+jahcgtqi
+fjwgziey
+wtnjeqox
+hxhnvdlu
+kmbrqajt
+unibvhfi
+lmguidsf
+giezpahv
+aexdytdm
+tcoucgvd
+zukcsxtd
+qywerfti
+fnftvlxf
+ckllemmi
+zehxlsaz
+zhedjqiy
+wsfhnyuj
+ctkdsqei
+pdmwuaeg
+yzrzgleq
+khwfzkvg
+ubbwlnzc
+qdbxxijq
+mymfvzdm
+ffipwzgc
+dwipnitg
+biqopxyv
+yqdwdfeu
+yxlvllst
+muybllpo
+ddjwlnmd
+fobmohyk
+waocltef
+roumjxyn
+xulclsfd
+grjcxkrt
+dwbgddkm
+yznuwcmb
+tshunsyk
+oittkhwe
+lgejeyvr
+stjyynym
+fjbvovgp
+kpvtxwls
+iylihzks
+wbbsgnjc
+kizladxp
+dgduzzlo
+yggpskje
+irgsvgjp
+zuaefwzj
+wtupmoxh
+qxzmztiz
+wyaqfjkx
+bbgkuxkq
+xgjazutt
+owgsbndh
+wdzvosgf
+zmfirshf
+jwymywsn
+qqhgempm
+njmfupvb
+bnnfxtlj
+ehgdaopj
+hmrxxhzo
+bliahood
+vqkxxtyg
+yeyvyhoa
+gmvlocas
+gbeziglc
+duysrprv
+johqaajw
+stojgglb
+hjgwdsqo
+dznpwsqb
+ahtpdtea
+mpskyezf
+iuggygcw
+lsgimtud
+xcpkmpzd
+bbgchwfe
+lzeelacc
+vluhtffm
+yvyxjkns
+owlligxq
+bckjrbvt
+wvrpjlwh
+wuphirjh
+jwmmadpo
+wbowswqv
+cqbtacco"""
+
+val input8ColumnsCount = 50
+val input8RowsCount = 6
+val input8 = """rect 1x1
+rotate row y=0 by 2
+rect 1x1
+rotate row y=0 by 5
+rect 1x1
+rotate row y=0 by 3
+rect 1x1
+rotate row y=0 by 3
+rect 2x1
+rotate row y=0 by 5
+rect 1x1
+rotate row y=0 by 5
+rect 4x1
+rotate row y=0 by 2
+rect 1x1
+rotate row y=0 by 2
+rect 1x1
+rotate row y=0 by 5
+rect 4x1
+rotate row y=0 by 3
+rect 2x1
+rotate row y=0 by 5
+rect 4x1
+rotate row y=0 by 2
+rect 1x2
+rotate row y=1 by 6
+rotate row y=0 by 2
+rect 1x2
+rotate column x=32 by 1
+rotate column x=23 by 1
+rotate column x=13 by 1
+rotate row y=0 by 6
+rotate column x=0 by 1
+rect 5x1
+rotate row y=0 by 2
+rotate column x=30 by 1
+rotate row y=1 by 20
+rotate row y=0 by 18
+rotate column x=13 by 1
+rotate column x=10 by 1
+rotate column x=7 by 1
+rotate column x=2 by 1
+rotate column x=0 by 1
+rect 17x1
+rotate column x=16 by 3
+rotate row y=3 by 7
+rotate row y=0 by 5
+rotate column x=2 by 1
+rotate column x=0 by 1
+rect 4x1
+rotate column x=28 by 1
+rotate row y=1 by 24
+rotate row y=0 by 21
+rotate column x=19 by 1
+rotate column x=17 by 1
+rotate column x=16 by 1
+rotate column x=14 by 1
+rotate column x=12 by 2
+rotate column x=11 by 1
+rotate column x=9 by 1
+rotate column x=8 by 1
+rotate column x=7 by 1
+rotate column x=6 by 1
+rotate column x=4 by 1
+rotate column x=2 by 1
+rotate column x=0 by 1
+rect 20x1
+rotate column x=47 by 1
+rotate column x=40 by 2
+rotate column x=35 by 2
+rotate column x=30 by 2
+rotate column x=10 by 3
+rotate column x=5 by 3
+rotate row y=4 by 20
+rotate row y=3 by 10
+rotate row y=2 by 20
+rotate row y=1 by 16
+rotate row y=0 by 9
+rotate column x=7 by 2
+rotate column x=5 by 2
+rotate column x=3 by 2
+rotate column x=0 by 2
+rect 9x2
+rotate column x=22 by 2
+rotate row y=3 by 40
+rotate row y=1 by 20
+rotate row y=0 by 20
+rotate column x=18 by 1
+rotate column x=17 by 2
+rotate column x=16 by 1
+rotate column x=15 by 2
+rotate column x=13 by 1
+rotate column x=12 by 1
+rotate column x=11 by 1
+rotate column x=10 by 1
+rotate column x=8 by 3
+rotate column x=7 by 1
+rotate column x=6 by 1
+rotate column x=5 by 1
+rotate column x=3 by 1
+rotate column x=2 by 1
+rotate column x=1 by 1
+rotate column x=0 by 1
+rect 19x1
+rotate column x=44 by 2
+rotate column x=40 by 3
+rotate column x=29 by 1
+rotate column x=27 by 2
+rotate column x=25 by 5
+rotate column x=24 by 2
+rotate column x=22 by 2
+rotate column x=20 by 5
+rotate column x=14 by 3
+rotate column x=12 by 2
+rotate column x=10 by 4
+rotate column x=9 by 3
+rotate column x=7 by 3
+rotate column x=3 by 5
+rotate column x=2 by 2
+rotate row y=5 by 10
+rotate row y=4 by 8
+rotate row y=3 by 8
+rotate row y=2 by 48
+rotate row y=1 by 47
+rotate row y=0 by 40
+rotate column x=47 by 5
+rotate column x=46 by 5
+rotate column x=45 by 4
+rotate column x=43 by 2
+rotate column x=42 by 3
+rotate column x=41 by 2
+rotate column x=38 by 5
+rotate column x=37 by 5
+rotate column x=36 by 5
+rotate column x=33 by 1
+rotate column x=28 by 1
+rotate column x=27 by 5
+rotate column x=26 by 5
+rotate column x=25 by 1
+rotate column x=23 by 5
+rotate column x=22 by 1
+rotate column x=21 by 2
+rotate column x=18 by 1
+rotate column x=17 by 3
+rotate column x=12 by 2
+rotate column x=11 by 2
+rotate column x=7 by 5
+rotate column x=6 by 5
+rotate column x=5 by 4
+rotate column x=3 by 5
+rotate column x=2 by 5
+rotate column x=1 by 3
+rotate column x=0 by 4"""

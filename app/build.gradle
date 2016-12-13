@@ -2,6 +2,12 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
+repositories {
+    maven {
+        url 'http://dl.bintray.com/kotlin/kotlin-eap-1.1/'
+    }
+}
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
