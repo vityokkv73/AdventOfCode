@@ -15,10 +15,10 @@ object Advent17 {
         while (true) {
             markerStartIndex = input9.indexOf('(', sequenceEndPos)
             if (markerStartIndex > sequenceEndPos) {
-                decodedSequence += input.substring(sequenceEndPos, markerStartIndex)
+                decodedSequence += input9.substring(sequenceEndPos, markerStartIndex)
             }
             if (markerStartIndex == -1) {
-                decodedSequence += input.substring(sequenceEndPos, input.length)
+                decodedSequence += input9.substring(sequenceEndPos, input9.length)
                 break
             }
             marker = Marker.parseMarker(input9, markerStartIndex)
@@ -27,6 +27,35 @@ object Advent17 {
             sequenceEndPos = markerEndIndex + marker.repeatedSequenceLength
         }
         return decodedSequence.length
+    }
+}
+
+object Advent18 {
+    fun result(input: String): Long {
+        var markerStartIndex :Int
+        var markerEndIndex :Int
+        var sequenceEndPos = 0
+        var decodedSequenceSize = 0L
+        var decodedChunk: String
+        var marker: Marker
+        while (true) {
+            markerStartIndex = input.indexOf('(', sequenceEndPos)
+            if (markerStartIndex > sequenceEndPos) {
+                decodedSequenceSize += input.substring(sequenceEndPos, markerStartIndex).length
+            }
+            if (markerStartIndex == -1) {
+                decodedSequenceSize += input.substring(sequenceEndPos, input.length).length
+                break
+            }
+            marker = Marker.parseMarker(input, markerStartIndex)
+            markerEndIndex = markerStartIndex + marker.length
+            sequenceEndPos = markerEndIndex + marker.repeatedSequenceLength
+
+            decodedChunk = input.substring(markerEndIndex, markerEndIndex + marker.repeatedSequenceLength).repeat(marker.repeatedCount)
+
+            decodedSequenceSize += result(decodedChunk)
+        }
+        return decodedSequenceSize
     }
 }
 
@@ -40,9 +69,9 @@ data class Marker(val length: Int, val repeatedSequenceLength: Int, val repeated
             val markerString = input.substring(startPos, endPos + 1)
             val matcher = pattern.matcher(markerString)
             if (matcher.find()) {
-                return Marker(endPos - startPos, Integer.valueOf(matcher.group(1)), Integer.valueOf(matcher.group(2)))
+                return Marker(endPos - startPos + 1, Integer.valueOf(matcher.group(1)), Integer.valueOf(matcher.group(2)))
             }
             throw IllegalStateException("Can't find marker. startPos = $startPos")
-            }
+        }
     }
 }
