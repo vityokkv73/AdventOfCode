@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         start.setOnClickListener {
-            result.text = Advent19_20.result().toString()
+            result.text = Day12.advent1v().toString()
         }
     }
 }
