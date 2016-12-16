@@ -1,5 +1,7 @@
 package com.example.isakovv.adventofcode
 
+import android.graphics.Point
+
 /**
  * Created by isakov.v on 12/8/16.
  */
@@ -3870,3 +3872,7 @@ dec d
 jnz d -2
 dec c
 jnz c -5"""
+
+val input13_startPoint = Point(1, 1)
+val input13_finishPoint = Point(31, 39)
+val input13_designerFavoriteNumber = 1358
