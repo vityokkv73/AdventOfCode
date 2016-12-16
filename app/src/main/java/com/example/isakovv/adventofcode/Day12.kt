@@ -1,5 +1,6 @@
 package com.example.isakovv.adventofcode
 
+import android.util.Log
 import java.util.regex.Pattern
 
 /**
@@ -10,23 +11,33 @@ object Day12 {
     val jnzCommandPattern = Pattern.compile("jnz ((-?\\d+)|a|b|c|d) ((-?\\d+)|a|b|c|d)")
     val incCommandPattern = Pattern.compile("inc (a|b|c|d)")
     val decCommandPattern = Pattern.compile("dec (a|b|c|d)")
-    val registers = mutableMapOf("a" to 0, "b" to 0, "c" to 0, "d" to 0)
+    val registers = mutableMapOf("a" to 0, "b" to 0, "c" to 1, "d" to 0)
 
-    fun advent1(): Int {
+    fun advent1_2(): Int {
         val commands = input12.lines().map { parseCommand(it) }
         var currentPos = 0
         var currentCommand: CpuCommand
-        val commandsLength = commands.size
 
-        while (currentPos < commands.size) {
+        loop@ while (currentPos < commands.size) {
             currentCommand = commands[currentPos]
+            Log.d("Day12", "currentPos = $currentPos")
+            Log.d("Day12", "currentCommand = $currentCommand")
             when (currentCommand) {
                 is CpuCommand.IncCommand -> processIncrement(currentCommand)
                 is CpuCommand.DecCommand -> processDecrement(currentCommand)
-                is CpuCommand.JNZCommand -> currentPos += processJNZ(currentCommand)
+                is CpuCommand.JNZCommand -> {
+                    Log.d("Day12", "before jnzCommand processing")
+                    var offset = processJNZ(currentCommand)
+                    Log.d("Day12", "after jnzCommand processing")
+                    if (offset == 0)
+                        offset++
+                    currentPos += offset
+                    continue@loop
+                }
                 is CpuCommand.CopyCommand -> processCopy(currentCommand)
             }
-
+            Log.d("Day12", "before currentPos increment")
+            currentPos++
         }
 
         return registers["a"]!!
@@ -44,13 +55,14 @@ object Day12 {
 
     private fun processJNZ(currentCommand: CpuCommand.JNZCommand): Int {
         val valueToTest = getValue(currentCommand.valueToTest)
-        if (valueToTest == 0) {
-            return if (currentCommand.valueToTest in "a".."d") {
-                registers[currentCommand.valueToTest] ?: 0
+        if (valueToTest != 0) {
+            return if (currentCommand.offset in "a".."d") {
+                registers[currentCommand.offset] ?: 0
             } else {
-                Integer.valueOf(currentCommand.valueToTest)
+                Integer.valueOf(currentCommand.offset)
             }
         }
+        return 0
     }
 
     private fun getValue(value: String): Int {
@@ -62,7 +74,7 @@ object Day12 {
     }
 
     private fun processCopy(currentCommand: CpuCommand.CopyCommand) {
-
+        registers[currentCommand.to] = getValue(currentCommand.from)
     }
 
     private fun parseCommand(commandStr: String): CpuCommand {
