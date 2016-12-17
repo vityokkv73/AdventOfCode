@@ -3873,6 +3873,7 @@ jnz d -2
 dec c
 jnz c -5"""
 
-val input13_startPoint = Point(1, 1)
-val input13_finishPoint = Point(31, 39)
+val input13_startPoint = MarkedLocation(1, 1)
+val input13_finishPoint = MarkedLocation(31, 39)
 val input13_designerFavoriteNumber = 1358
+val input13_stepsCount = 50
