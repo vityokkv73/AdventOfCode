@@ -1,6 +1,5 @@
 package com.example.isakovv.adventofcode
 
-import android.util.Log
 import android.util.Pair
 
 /**
